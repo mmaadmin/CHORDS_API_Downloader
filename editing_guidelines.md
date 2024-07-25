@@ -1,5 +1,5 @@
 # Adding A New Portal Checklist:
-### Add portal name to create_README()
+### Add portal name to create_README() [README.TXT PHASED OUT]
   * add new name to lookup table
   * create the corresponding README.txt
   * add enw name to the error handling at bottom
