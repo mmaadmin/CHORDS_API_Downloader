@@ -74,20 +74,20 @@ import resources
 null_value = '' # OPTIONAL
 include_test = False # OPTIONAL
 
-portal_url = r"https://3d-fewsnet.icdp.ucar.edu/" 
-portal_name = "FEWSNET"
-data_path = r"/Users/rzieber/Downloads/" 
+portal_url = r"https://chords-portal.com/"
+portal_name = "Portal Name"
+data_path = r"C:\\Path\\To\\Data\\Storage\\" 
 instrument_IDs = [
-    1,2,3
+    1, 2, 3
 ]
-user_email = 'rzieber@ucar.edu'
-api_key = 'QSy8irrRowbi6ys-5PHe' 
-start = '2024-01-01 06:00:00' 
-end = '2024-07-02 05:45:59'
+user_email = 'chords-email@example.com'
+api_key = 'API key here' 
+start = 'YYYY-MM-DD HH:MM:SS' 
+end = 'YYYY-MM-DD HH:MM:SS'
 
-columns_desired = ['rgt1', 'rgt2', 'rgp1', 'rgp2'] # OPTIONAL
-time_window_start = '05:45:00' # OPTIONAL
-time_window_end = '06:00:59' # OPTIONAL
+columns_desired = [] # OPTIONAL
+time_window_start = '' # OPTIONAL
+time_window_end = '' # OPTIONAL
   
 
 # MAIN PROGRAM ------------------------------------------------------------------------------------------------------------------------
